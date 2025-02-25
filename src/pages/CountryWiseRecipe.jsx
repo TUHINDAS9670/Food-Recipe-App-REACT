@@ -26,7 +26,7 @@ const CountryWiseRecipe = () => {
     <Link  to={`/${d.idMeal}`} className="pb-4" >
       <div key={d.idMeal}>
 
-      <img src={d.strMealThumb} alt="" className="w-[350px] h-[300px]" />
+      <img src={d.strMealThumb} alt="" className="w-[350px] h-[300px] p-3 mt-1 rounded-md transition delay-100 duration-500 ease-in-out hover:-translate-y-1 hover:scale-105 cursor-pointer" />
     <p className="text-white">{d.strMeal}</p>
       </div>
   </Link>
